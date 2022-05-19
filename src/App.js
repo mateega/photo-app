@@ -8,7 +8,7 @@ function App() {
   return(
     <Layout>
       <Routes>
-        <Route path="/memories" element={<AllMemoriesPage />} />
+        <Route path="/" element={<AllMemoriesPage />} />
         <Route path="/add-memory" element={<NewMemoriesPage />} />
       </Routes>
     </Layout>
